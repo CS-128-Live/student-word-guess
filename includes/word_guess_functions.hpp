@@ -12,7 +12,7 @@
 
 using namespace std;
 
-// REQUIRES: size to be a value between 2 and 11 exclusive.
+// REQUIRES: size to be a value between 2 and 10 (including 2 and 10).
 // MODIFIES:
 // EFFECTS: Out of the words from kDictionaryFile that are of length size,
 //          this function returns one of them randomly selected using
