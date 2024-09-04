@@ -6,10 +6,10 @@ using namespace std;
 
 // test cases given assume these values
 
-constexpr int kMaxMisses = 5;
-constexpr int kRandomSeed = 5500;
-constexpr int kMinWordLength = 2;   // inclusive
-constexpr int kMaxWordLength = 11;  // exclusive
+const int kMaxMisses = 5;
+const int kRandomSeed = 5500;
+const int kMinWordLength = 2;   // inclusive
+const int kMaxWordLength = 10;  // inclusive
 const string kDictionaryFile = "includes/dictionary.txt";
 
 #endif
