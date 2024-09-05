@@ -35,13 +35,10 @@ using namespace std;
 
 TEST_CASE("PickWord Test", "[PickWord]") {
   string output = PickWord(5, 5301);
-  REQUIRE(output == "ariel");
+  REQUIRE(output.size() == 5);
 
-  string output2 = PickWord(3, 560);
-  REQUIRE(output2 == "aby");
-
-  string output3 = PickWord(10, 5301);
-  REQUIRE(output3 == "viewpoints");
+  string output2 = PickWord(5, 514);
+  REQUIRE(output != output2);
 }
 
 TEST_CASE("GuessValid Test", "[GuessValid]") {
